@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+<h1> Bienvenue sur le forum {{app.user.pseudo}}</h1>
+<p> Votre mail : {{app.user.email}}</p>
+
+{% endblock %}
